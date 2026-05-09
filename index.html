@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Cobroya</title>
+    <link rel="icon" type="image/png" href="icon.png" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <meta name="theme-color" content="#0f172a" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    
+    <!-- ✅ ELIMINA EL FLASH DEL LOGO/PLUGIN -->
+    <style>
+      html, body, #root {
+        background-color: #0f172a !important;
+        min-height: 100dvh;
+        width: 100%;
+      }
+    </style>
+    <script type="module" crossorigin src="/cobroYa1.2/assets/index-QdtAvWas.js"></script>
+    <link rel="stylesheet" crossorigin href="/cobroYa1.2/assets/index-Cb9DGDP3.css">
+  <link rel="manifest" href="/cobroYa1.2/manifest.webmanifest"></head>
+  <body style="background-color: #0f172a;">
+    <div id="splash">
+      <div style="position: fixed; inset: 0; width: 100%; height: 100dvh; display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: #0f172a; z-index: 9999; transition: opacity 0.2s ease-out;" id="splash-content">
+        <div style="display: flex; flex-direction: column; align-items: center; animation: initScale 0.5s ease-out forwards;">
+          <img src="/cobroYa1.2/icon.png" alt="Logo" style="width: 112px; height: 112px; border-radius: 32px; box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5); background-color: #0f172a; border: 4px solid rgba(255,255,255,0.05);" />
+        </div>
+      </div>
+      <style>
+        @keyframes initScale { from { transform: scale(0.9); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+      </style>
+    </div>
+    <div id="root"></div>
+  </body>
+</html>
+
+
